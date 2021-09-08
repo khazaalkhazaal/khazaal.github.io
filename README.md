@@ -1,2 +1,2 @@
-# khazaal.github.io
+# khazaalkhazaal.github.io
 my personal website project

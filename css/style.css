@@ -1,10 +1,25 @@
-*,*::before,*::after{
-    box-sizing: border-box;
-}
-
 
 *{
     margin: 0;
     padding: 0;
 }
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+:root{
+    --udred:#CA2437;
+}
+
+body{
+    color:#fefefe;
+    margin:1.5em;
+    
+}
+
+
+.container {
+    background-color:var(--udred);
+}

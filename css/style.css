@@ -18,6 +18,10 @@
     background-size: cover;
     background-attachment: fixed;   
 }
+p{
+text-size-adjust: 24px;
+
+}
 
 #hero{
     background-image: url("/car1.jpg");

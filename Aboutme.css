@@ -7,9 +7,9 @@
 
 :root {
     /* create all your custom properties here */
-    --main-color:#003087;
-    --accent-color:#bf0d3e;
-    --text-color:#fcfcfc;
+    --main-color:darkred;
+    --accent-color:black;
+    --text-color:white;
     --base-padding:2rem;
     --display-font: 'Karantina', cursive;
     --main-font:sans-serif;

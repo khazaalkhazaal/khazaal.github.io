@@ -1,0 +1,33 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.para{
+    background-color: black;
+    color: white;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3.5rem;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+p{
+font-size: 24px;
+
+}
+#Me{
+background-image: url("/Me.jpg");
+}
+#hero{
+    background-image: url("/car1.jpg");
+}
+#moon{
+    background-image: url("/football-soccer-810x524.jpg");
+}

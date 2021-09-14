@@ -5,7 +5,7 @@
   */
 
 
-:root{
+:root {
     /* create all your custom properties here */
     --main-color:#003087;
     --accent-color:#bf0d3e;
@@ -108,7 +108,7 @@ p{
         background-image: url("/football-soccer-810x524.jpg");
     }
 
-}
+
 h1, h2{
     font-family: var(--display-font);
     font-size:calc(1.5 * var(--base-padding))

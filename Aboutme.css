@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Karantina:wght@300;700&display=swap');
+/* 
+ 'Dancing Script', cursive;
+ 'Karantina', cursive;
+  */
+
+
+:root{
+    /* create all your custom properties here */
+    --main-color:#003087;
+    --accent-color:#bf0d3e;
+    --text-color:#fcfcfc;
+    --base-padding:2rem;
+    --display-font: 'Karantina', cursive;
+    --main-font:sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--main-font);
+    /* position: relative; */
+}
+#big, #small{
+    display: flex;
+    gap:var(--base-padding);
+    
+}
+#big > *, #small > *{
+    flex-basis: 100%;
+}
+#big>img{
+    max-width:100%;
+}
+#big >div{
+    background-color: var(--main-color);
+    border:3px solid var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:var(--base-padding);
+}
+.big-left{
+    flex-direction: column;
+}
+#big{
+    margin:calc(1.5 * var(--base-padding));
+}
+#small{
+    min-height: calc(8 * var(--base-padding));
+    margin:var(--base-padding);
+    
+}
+#small>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--base-padding);
+    border: 3px solid var(--accent-color);
+}
+
+h2{
+    color: var(--text-color);
+}
+footer{
+    background-color: var(--main-color);
+    color:var(--text-color);
+    min-height: calc(5 * var(--base-padding));
+    padding: var(--base-padding);
+    text-align: center;
+}
+
+.para{
+    background-color:var(--main-color);
+    color: white;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3.5rem;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+#hero{
+    background-image: url("/images/flower.jpg");
+    color:var(--text-color);
+}
+#moon{
+    background-image: url("/images/moon.jpg");
+}
+p{
+    background-color: var(--text-color);
+    color:var(--main-color);
+}
+h1, h2{
+    font-family: var(--display-font);
+    font-size:calc(1.5 * var(--base-padding))
+}
+nav{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: flex-end;
+    min-height: var(--base-padding);
+    padding-right: var(--base-padding);
+    position: sticky;
+    top:0;
+    left:0;
+
+}
+nav a{
+    display: block;
+    margin:5px 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+nav a:hover{
+    color:var(--accent-color);
+}
